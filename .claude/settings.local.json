@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(venvScriptspip install -r requirements.txt)",
+      "Bash(./venv/Scripts/pip.exe install:*)",
+      "Bash(where:*)",
+      "Bash(py --list:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: RAG Document Q&A application\n\n- Streamlit-based UI for document upload and Q&A\n- LangChain for RAG orchestration\n- ChromaDB for vector storage with persistence\n- Groq LLM integration\n- HuggingFace embeddings \\(all-MiniLM-L6-v2\\)\n- Supports PDF, DOCX, and CSV files\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git config:*)",
+      "Bash(dir:*)"
+    ]
+  }
+}
