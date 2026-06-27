@@ -9,4 +9,5 @@ langchain-chroma
 chromadb
 pypdf
 python-docx
+docx2txt
 python-dotenv
